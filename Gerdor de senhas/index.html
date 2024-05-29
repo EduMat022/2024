@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Gerador de senha</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Jacquad+24&display=swap" rel="stylesheet">
-    <title>Gerador de Senhas</title>
 </head>
+
 <body>
     <section class="conteudo">
-        <div class="conteudo-titulo"></div>
-            <img src="unlock.svg" alt="Gerador de Senhas">
-            <h2>Gerador de Senhas</h2>
-            <h3>Gere Automaticamente Aleatoria e Segura</h3>
+        <div class="conteudo-titulo">
+            <img src="unlock.svg" alt="cadeado fechado">
+            <h2 class="titulo-principal">Gerador d senhas</h2>
+            <h3 class="titulo secundario">Gere instantaneamente uma senha aleatória e segura</h3>
         </div>
-
-        <div>
+        <div class="conteudo-senha">
             <label for="senha">Senha</label>
             <input name="senha" type="text" id="campo-senha">
         </div>
+        <div class="parametro">
+            <h3 class="parametro-titulo">Personalize sua senha</h3>
+            <div class="parametro-coluna__senha">
+                <h4 class="parametro-senha__titulo">Número de caracteres</h4>
+            </div>
+            <div class="parametro-senha">
+                <h4 class="parametro-senha__titulo">Caracteríscas da senha</h4>
+            </div>
+            <div class="parametro-senha">
+                <h4 class="parametro-senha__titulo">Força da senha</h4>
+                <p>Fraca</p>
+                <p>Média</p>
+                <p>Forte</p>
+            </div>
+        </div>      
     </section>
-
-    <div>
-        <h3>Personalize sua Senha</h3>
-    </div>
 </body>
+
 </html>
