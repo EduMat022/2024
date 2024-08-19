@@ -22,20 +22,21 @@ function mostraPergunta() {
 
     const perguntas = [
         {
-            enunciado: "O futbol contribui na cultura?",
+            enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
             alternativas: [
                 {
-                    texto: "Sim!",
-                    afirmacao: "Ele pode ajudar com verbas e eventos"
+                    texto: "Isso é assustador!",
+                    afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
                 },
                 {
                     texto: "Isso é maravilhoso!",
                     afirmacao: "Quis saber como usar IA no seu dia a dia."
-                },
+                }
             ]
+        }
         ]
-
-        function mostraAlternativas() {
+        }
+        function mostraAlternativas(){
             for(const alternativa of perguntaAtual.alternativas) {
                 const botaoAlternativas = document.createElement("button");
                 botaoAlternativas.textContent = alternativa.texto;
