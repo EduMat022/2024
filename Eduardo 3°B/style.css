@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css2?family=Righteous&display=swap);
+
+:root {
+
+    --cor--principal: rgb(30, 148, 0);
+    --cor--de-fundo: rgb(100, 100, 100);
+    }
+
+body {
+    color: var(--cor--principal) ;
+    background-color: var(--cor--de-fundo);
+}
